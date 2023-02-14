@@ -10,7 +10,9 @@
 <body>
 
 	<h1>${msg }</h1>
-	<form id="firstform"  method="post" name="firstform" action="/otp/login.do">
+
+	
+	<form id="firstform"  method="post" name="firstform" action="login.do">
 		  id : <input type="text"  name="id" id="id" /><br/>
 		  pw : <input type="text"  name="pw" id="pw" />
 	</form>
